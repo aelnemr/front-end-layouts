@@ -1,0 +1,70 @@
+/*Reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+/*Buttons*/
+.btn {
+    display: inline-block;
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.btn-success {
+    background: #0cf561;
+}
+
+.btn-danger {
+    background: #c40a45;
+}
+
+/*Layouts*/
+.d-flex {
+    display: flex;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+/*Flex*/
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+
+/*margins*/
+.m-5 {
+    margin: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.m-10 {
+    margin: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+.m-auto {
+    margin: auto;
+}

@@ -1,0 +1,41 @@
+
+/*Global style*/
+
+
+/*Index style*/
+header {
+    background: #ff5555;
+}
+
+header nav {
+    height: 120px;
+}
+
+header nav .logo {
+    width: 80px;
+    height: 80px;
+    background: #2255ff;
+}
+
+.row {
+    display: flex;
+    background: #333333;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    height: 150px;
+    min-width: 150px;
+    background: #c3c3c3;
+    margin: 15px;
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.col-6 {
+    flex-grow: 6;
+}
