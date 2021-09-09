@@ -29,7 +29,7 @@ header nav .logo {
     min-width: 150px;
     background: #c3c3c3;
     margin: 15px;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
 }
 
 .col-2 {

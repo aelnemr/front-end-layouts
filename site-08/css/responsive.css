@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+    .col-xs-6 {
+        width: 50%;
+    }
+    .about, .contact {
+        width: 48%;
+        text-align: center;
+        margin-bottom: 25px;
+        padding: 0 15px;
+    }
+
+    .team {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about, .contact, .team {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+        padding: 0 15px;
+    }
+}

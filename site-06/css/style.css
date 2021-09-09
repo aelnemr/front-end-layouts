@@ -1,0 +1,37 @@
+.demo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: #0037ff;
+    /*margin: 5px;*/
+    /*top: 0;*/
+    /*right: 50px;*/
+    z-index: 50;
+    /*bottom: 0;*/
+    /*float: left;*/
+    display: inline-block;
+}
+
+.demo2 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: yellow;
+    top: -50px;
+    left: -50px;
+    /*margin: 5px;*/
+    /*top: 0;*/
+    /*right: 50px;*/
+    z-index: 55;
+    /*bottom: 0;*/
+    /*float: left;*/
+    display: inline-block;
+}
+
+.container-demo {
+    position: relative;
+}
+
+body {
+    position: relative;
+}

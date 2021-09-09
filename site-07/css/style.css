@@ -1,0 +1,275 @@
+header {
+    position: fixed;
+    background: #333333;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+nav {
+    height: 90px;
+}
+
+header div.container nav div.logo {
+    width: 90px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: grey
+}
+
+nav ul li a {
+    font-size: 20px;
+}
+
+.welcome-description {
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.colored-text {
+    color: #335eea;
+}
+
+h1.d-text, span.colored-text {
+    font-size: 50px;
+    width: 100%;
+    line-height: 60px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+p.d-paragraph {
+    color: #869ab8;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.welcome-image-container {
+    height: 500px;
+}
+
+
+.welcome-image {
+    width: 650px;
+    height: 450px;
+}
+
+.view-pages-btn, .doc-btn {
+    padding: 17px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.doc-btn {
+    color: #335eea;
+}
+
+.dv-sec-section {
+    width: 30%;
+    height: 177px;
+
+}
+
+section.second-section {
+    height: 400px;
+}
+
+i {
+    font-size: 25px;
+
+}
+
+.sec-section-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    word-spacing: 1px;
+
+}
+
+.sec-section-description {
+    color: #869ab8;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+
+}
+
+.brand-img {
+    width: 35%;
+    height: 150px;
+    margin-right: 35px;
+    color: #869ab8;
+}
+
+.dashboard-sec {
+    background-image: linear-gradient(180deg, #f9fbfd 0, #fff);
+    height: 700px;
+}
+
+.dashboard-sec-download-sample {
+    height: 660px;
+    width: 40%;
+
+
+}
+
+.dashboard-sec-description {
+    height: 350px;
+    width: 50%;
+}
+
+.dashboard-sec-img {
+    width: 100%;
+    min-height: 660px;
+    position: relative;
+    /*padding-top: 270px;*/
+
+}
+
+.form-img {
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    z-index: 555;
+    width: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.form-body {
+    position: absolute;
+    /*background-color: #c3c3c3;*/
+    bottom: 0;
+    padding: 150px 0 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 6px -7rem 3rem 20px rgb(22 28 45 / 5%);
+}
+
+div.dashboard-sec-img img {
+    /*height: 100%;*/
+    width: 100%;
+}
+
+
+.form-input {
+    font-size: 17px;
+    width: 340px;
+    height: 70px;
+    border: none;
+    border-bottom: 1px solid rgb(238, 234, 234);
+    outline: none;
+    background: none;
+}
+
+.dashboard-sec-btn {
+    background-color: #389e80;
+    padding: 20px 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+
+}
+
+.dashboard-sec-txt, .dashboard-sec-title, .dashboard-sec-colored-text {
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 45px;
+    font-weight: 100;
+
+}
+
+.dashboard-sec-colored-txt {
+    color: #42ba96;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.dashboard-sec-colored-text {
+    color: #335eea;
+
+}
+
+p.dashboard-sec-txt {
+    color: #5f79a1;
+    font-size: 21px;
+
+    word-spacing: 2px;
+    line-height: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.checked-txt-container {
+    width: 450px;
+    margin-top: 40px;
+}
+
+.check-icon {
+    font-size: 18px;
+    color: #42ba96;
+}
+
+.checked-txt {
+    font-size: 17px;
+    color: #42ba96;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+div.dashboard-img > img {
+    width: 800px;
+    height: 400px;
+    transform: rotateY(-45deg) rotateX(10deg);;
+    border-radius: 10px;
+    box-shadow: 25px 60px 125px -25px rgb(80 102 144 / 10%), 16px 40px 75px -40px rgb(0 0 0 / 20%);
+    margin-right: 20px;
+
+}
+
+.our-customers-sec {
+    height: 300px;
+
+}
+
+.stay-focused-sec {
+    background-color: #f1f4f8;
+    height: 500px;
+
+}
+
+div.stay-focuse-img > img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.price-sec {
+    background-color: #f1f4f8;
+
+}
+
+
+
+
+
+
+
+
+
+
